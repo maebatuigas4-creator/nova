@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+        
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 15px;
+            background-color: rgb(5, 120, 214);
+            color: aliceblue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h2><strong>Simple Grading System</strong></h2>
+<button onclick="calculateGrade()">Compute Grade</button>
+
+<script>
+function calculateGrade() {
+    let prelim = 75;
+    let semi = 80;
+    let final = 90;
+
+    let average = (prelim + semi + final) / 3;
+
+    alert(
+    "-----------------------------------------------\n" +    
+    "Prelim :  " + prelim +  "    Semi:  " + semi+  "    Final:  " + final +
+
+    "\n\nYour Average Grade is :" + average.toFixed(1) +
+
+    "\n\nYou're a Great Singer!!!\n"+
+    "-----------------------------------------------"
+    );
+}
+</script>
+
+
+</body>
+</html>
