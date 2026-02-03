@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <title>Resume Form</title>
+ </head>
+
+ <body>
+  
+   <h2>Resume</h2>
+   <p><strong>First Name:</strong> <span id="fname"></span></p>
+   <p><strong>Sure Name:</strong> <span id="lname"></span></p>
+   <p><strong>Middle Name:</strong> <span id="mname"></span></p>
+   <p><strong>Age:</strong> <span id="age"></span></p>
+   <p><strong>Motto in Life:</strong> <span id="motto"></span></p>
+   <p>Press this button!</p>
+   <button type="button" onclick="showResume()">Display Resume</button>
+
+   <script>
+     function showResume() {
+
+       document.getElementById('fname').innerHTML = 'NOVA MAE';
+       document.getElementById('lname').innerHTML = 'RESUENA';
+       document.getElementById('mname').innerHTML = 'BATUIGAS';
+       document.getElementById('age').innerHTML = '21';
+       document.getElementById('motto').innerHTML = 'I CAN DO ALL THINGS THROUGH CHRIST WHO STRENGTHENS ME';
+     }
+   </script>
+
+ </body>
+ 
+ </html>
